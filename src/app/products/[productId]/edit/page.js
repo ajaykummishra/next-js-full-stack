@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 
-export default function editProduct({params}){
+export default function EditProduct({params}){
   const productId = params.productId
   console.log(productId);
 

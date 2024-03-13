@@ -1,9 +1,6 @@
-import {
-    connection
-} from "@/lib/̃";
-import {
-    Product
-} from "@/lib/model/product";
+import { connection } from "@/lib/connection";
+import { Product } from "@/lib/model/product";
+
 import mongoose from "mongoose";
 import {
     NextResponse

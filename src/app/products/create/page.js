@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function createProduct(){
+export default function CreateProduct(){
   const [name, setName] = useState("")
   const [price, setPrice] = useState("")
   const [description, setDescription] = useState("")

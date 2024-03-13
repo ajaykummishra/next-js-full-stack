@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 
-export default function addUser(){
+export default function AddUser(){
   const [name, setName] = useState("")
   const [age, setAge] = useState("")
   const [email, setEmail] = useState("")

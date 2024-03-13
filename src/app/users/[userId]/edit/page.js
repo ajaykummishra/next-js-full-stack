@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 
-export default function editUser({params}){
+export default function EditUser({params}){
   const userId = params.userId
 
   const [name, setName] = useState("")
